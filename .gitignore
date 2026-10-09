@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime
+logs/*.log
+logs/**/*.log
+output/*
+!output/.gitkeep
+recordings/*
+!recordings/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+
+# Models / local training artifacts
+model/*.pt
+model/*.onnx
+model/*.weights
+model/*.cfg
+model/library/files/
+model/library/*.sqlite
+runs/
+datasets/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

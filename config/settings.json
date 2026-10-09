@@ -1,0 +1,14 @@
+{
+  "lang": "ru",
+  "mission": "uav",
+  "weights_path": "F:/!GEC/Tracking_drones/UAV-Vision-Detection-Tracking/model/library/files/uav-yolov8-aircraft-drone/best.pt",
+  "base_weights": "",
+  "rtsp_url": "",
+  "sensor_id": "uav-vision-01",
+  "event_host": "127.0.0.1",
+  "event_port": 5001,
+  "uav_conf": 0.35,
+  "uav_nms": 0.45,
+  "meters_per_pixel": 0.0,
+  "geometry": "AdnQywADAAAAAAAA////+AAAB38AAAQPAAAAnAAAACIAAAZjAAADuQAAAAACAAAAB4AAAAAAAAAAFwAAB38AAAQP"
+}

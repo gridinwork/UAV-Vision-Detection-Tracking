@@ -1,0 +1,32 @@
+[
+  {
+    "id": "uav-yolov8-aircraft-drone",
+    "title": "YOLOv8 aircraft, drone, helicopter",
+    "role": "uav",
+    "url": "https://raw.githubusercontent.com/HarshaaMg/Flying_Object_Detection/main/weights/refined_3class/best.pt",
+    "filename": "best.pt",
+    "sha256": "d46696e20edea63ddd8c8c3f241f405a6065cad9642d353f397ecc03952b1421",
+    "license": "LICENSE в репозитории указывает AGPL-3.0, README указывает MIT. Перед распространением сверить с автором.",
+    "note": "Публичный файл HarshaaMg/Flying_Object_Detection, weights/refined_3class/best.pt. Имена классов читаются из файла после загрузки."
+  },
+  {
+    "id": "vehicle-yolov4-tiny-weights",
+    "title": "YOLOv4-tiny vehicle weights",
+    "role": "vehicle",
+    "url": "",
+    "filename": "custom-yolov4-tiny-detector_best.weights",
+    "sha256": "",
+    "license": "",
+    "note": "NOT_PUBLIC. Точный файл custom-yolov4-tiny-detector_best.weights в открытом доступе не найден."
+  },
+  {
+    "id": "vehicle-yolov4-tiny-cfg",
+    "title": "YOLOv4-tiny vehicle config",
+    "role": "vehicle",
+    "url": "",
+    "filename": "custom-yolov4-tiny-detector.cfg",
+    "sha256": "",
+    "license": "",
+    "note": "NOT_PUBLIC. Точный файл custom-yolov4-tiny-detector.cfg в открытом доступе не найден."
+  }
+]
