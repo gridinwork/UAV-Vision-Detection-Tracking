@@ -17,14 +17,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Rebuild prepared source tree
+      - name: Unpack prepared source
         shell: bash
         run: |
           set -euo pipefail
-          cat .publish/part-* > /tmp/bundle.b64
-          base64 -d /tmp/bundle.b64 > /tmp/bundle.zip
-          unzip -t /tmp/bundle.zip
-          unzip -oq /tmp/bundle.zip -d .
+          unzip -t .publish/source.zip
+          unzip -oq .publish/source.zip -d .
           rm -rf .publish
           rm -f .github/workflows/publish_bundle.yml
 
@@ -35,5 +33,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Publish UAV Vision Detection & Tracking source and screenshots"
+          git commit -m "Publish UAV Vision Detection & Tracking"
           git push origin HEAD:main
